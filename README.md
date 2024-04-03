@@ -2,6 +2,8 @@
 
 Este guia aborda a personalização do estilo da página de Central de Ajuda do Zoho Desk, seguindo o padrão clássico e atualizando os códigos HTML e CSS.
 
+Aqui você encontra diferetes modelos para personalizar a sua central, todos seguem o mesmo padrão de configuração que é mostrada a seguir:
+
 ## Alterações de Cores e Fontes
 
 Nesta seção, é possível personalizar a aparência da central, ajustando cores e fontes conforme desejado.
@@ -10,13 +12,13 @@ Nesta seção, é possível personalizar a aparência da central, ajustando core
 
 ## Alterações no HTML
 
-O código HTML pode ser modificado para incluir diversos elementos, como imagens, textos e links. Todo o código está incluído na aba cabeçalho, exceto os últimos links, que estão no rodapé. Para acessar o código completo, consulte o arquivo **central-ajuda.html** no repositório.
+O código HTML pode ser modificado para incluir diversos elementos, como imagens, textos e links. Todo o código está incluído na aba cabeçalho, exceto os últimos links, que estão no rodapé. Para acessar o código completo, consulte o arquivo **central-ajuda.html** na pasta da personalização escolhida.
 
 ![HTML](https://github.com/webpeakbrazil/central-ajuda-personalizacao/assets/70151554/5db04e4a-0245-4b36-b62e-3aed825398f7)
 
 ## Alterações no CSS
 
-As classes CSS podem ser ajustadas para definir o estilo desejado. Para visualizar o código completo, consulte o arquivo **central-ajuda.css** no repositório.
+As classes CSS podem ser ajustadas para definir o estilo desejado. Para visualizar o código completo, consulte o arquivo **central-ajuda.css** na pasta da personalização escolhida.
 
 ![CSS](https://github.com/webpeakbrazil/central-ajuda-personalizacao/assets/70151554/ad334b89-fc2b-4d4a-a547-022ff6d98b98)
 
@@ -44,7 +46,7 @@ Após cada alteração, siga estas etapas:
 
 ## Resultado
 
-Compare as imagens abaixo para visualizar o resultado das alterações:
+Compare as imagens abaixo para visualizar o resultado das alterações usando por exemplo a coleção "**personalizacao-roxo**":
 
 ### Sem as Alterações
 
