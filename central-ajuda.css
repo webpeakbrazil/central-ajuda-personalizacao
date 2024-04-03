@@ -1,10 +1,12 @@
 .Header__menuWrapper{
   background: white;
 }
+
 #navBarContainer{
   background-color: white!important;
   max-width: 80rem!important;
 }
+
 .Header__logo {
   max-height: 4rem;
   max-width: 8.5rem;
@@ -12,11 +14,13 @@
   display: block;
   margin-top: -10px;
 }
+
 .Header__menuList{
   color: #1E1E1E;
   padding: 0 15px;
   font-size: 0.8rem;
 }
+
 #portal_tabsignin{
   color: #1E1E1E;
   border: 1px solid #CCCCCC;
@@ -24,24 +28,30 @@
   padding: 0 15px;
   font-size: 12px;
 }
+
 #localePopup{
   font-size: 0.8rem;
 }
+
 .LocalePopup__localeTarget > svg {
   top: 0!important;
 }
+
 .Header__titleDescription{
   display: flex;
   align-items: center;
 
 }
+
 .Header__welcomeTitle, .Header__welcomeDescription{
   text-align: start!important;
 }
+
 .hero-unit__image {
   max-width: 55%;
   margin-left: 20px;
 }
+
 #autoSearchContainer{
   height: 95px;
   padding: 2px 10px 0 70px;
@@ -52,28 +62,36 @@
   background: #fff;
   border-radius: 50px 50px 0 0!important;
 }
+
 #autoSearchContainer,input::placeholder{
   font-size: 16px;
 }
+
 .Header__homeContent .Header__searchalt .Header__searchLink {
   margin: 0;
   width: 100%;
 }
+
 .Header__homeNavbarFixed .Header__searchSubCont {
   padding-bottom: 0;
 }
+
 .Header__searchalt {
   padding-bottom: 0;
 }
+
 .Header__searchLink{
   box-shadow: none;
 }
+
 .SearchBox__searchpart{
   background-color: transparent!important;
 }
+
 .Header__titleSearchBox {
   padding-bottom: 0;
 }
+
 .Button__tagPrimary {
   background: none;
   color: #000;
@@ -83,34 +101,57 @@
   font-weight: bold;
   text-align: start;
 }
+
 .TitleContainer__headerIcon{
   display: none;
 }
+
 .TitleContainer__container{
   border-radius: 50px;
 }
+
 .ArticlesContainer__articleListWidget{
   background: none;
   border: none;
 }
-.ModuleItem__moduleListItem{
+
+.ModuleItem__moduleListItem, .ModuleItem__moduleItem{
   margin-top: 12px;
   border-radius: 50px;
 }
-.ModuleItem__moduleListItem:hover{
+
+.ModuleItem__moduleListItem:hover, .ModuleItem__moduleItem:hover{
   border: 1px;
   border: 1px solid #5B1AB2;
 }
+
+.KBSubCategoryContainer__boxView{
+  border: none;
+}
+
+.ArticleListContainer__boxView{
+  border: none;
+  background: transparent;
+}
+
+.ArticleDetailLeftContainer__box, .TicketFormLeftContainer__part{
+  border-radius: 50px;
+  border: none;
+}
+
 .Article_title{
   display: none;
 }
+
 #breadCrumbsContainer{
   display: none;
 }
+
 .Header__containerLi{
   display: table;
   background: transparent;
 }
+
 #new_ticket_button{
   border-radius: 5px;
   background: #7B61FF;
@@ -119,6 +160,7 @@
   color: #fff;
   display: table;
 }
+
 .Signin__linkTitle{
   border-radius: 5px;
   background: #7B61FF;
@@ -126,9 +168,11 @@
   padding: 8px;
   margin-left: 4px;
 }
+
 .Signin__linkTitle a{
   color: #fff!important;
 }
+
 .Header__defaultContent .Header__banneralt {
   min-height: 5.375rem;
 }
@@ -136,49 +180,64 @@
 .Signin__title{
   font-size: 25px;
 }
+
 .Signin__subTitle{
   display: none;
 }
+
 .Signin__details{
   max-height: 25rem;
   border-radius: 50px;
+  display: none;
 }
+
 .Signin__descriSingn{
   margin-top: 10px;
 }
+
 @media only screen and (max-device-width: 768px) {
   .hero-unit__image {
     display: none;
   }
+
   #autoSearchContainer{
     height: 50px;
   }
+
   #autoSearchContainer,input::placeholder{
     font-size: 16px;
   }
+
   .Header__defaultContent .Header__banneralt {
     min-height: 1.375rem;
   }
+
   .TitleContainer__listView{
     border-radius: 50px;
     margin-top: 10px;
   }
+
   .ModuleCategoryContainer__containerListView{
     background: transparent;
     border: none;
   }
+
   .Header__menu{
     background-color: black;
   }
+
   .Header__menu:after{
     background-color: black;
   }
+
   .Header__menu:before{
     background-color: black;
   }
+
   .Header__navOpen .Header__nav{
     justify-content: start;
   }
+
   .Header__menuList {
     color: white;
     padding: 0 15px;
