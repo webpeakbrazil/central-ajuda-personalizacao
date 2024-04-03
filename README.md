@@ -1,4 +1,4 @@
-# Personalização de Estilo para a Página Zoho Desk
+# Personalização para central de ajuda Zoho Desk
 
 Este guia aborda a personalização do estilo da página de Central de Ajuda do Zoho Desk, seguindo o padrão clássico e atualizando os códigos HTML e CSS.
 
