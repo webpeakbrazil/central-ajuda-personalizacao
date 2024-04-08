@@ -1,0 +1,449 @@
+.Header__menuWrapper {
+  background: white;
+}
+
+#navBarContainer {
+  background-color: white !important;
+  max-width: 80rem !important;
+}
+
+.Header__welcomeTitle {
+  color: white !important;
+}
+
+.Header__logo {
+  max-height: 4rem;
+  max-width: 8.5rem;
+  min-height: auto;
+  display: block;
+  margin-top: -10px;
+}
+
+.Header__welcomeDescription {
+  display: none;
+}
+
+#searchContainer1 {
+  border-radius: 50px;
+}
+
+#autoSearchContainer {
+  border-radius: 50px;
+}
+
+.Header__searchLink {
+  box-shadow: none;
+}
+
+.ModuleCategoryContainer__hometabs {
+  display: none;
+}
+
+.TitleContainer__container {
+  margin-top: 10px;
+  text-align: center;
+  padding: 29px 47px 29px 47px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 6px 50px 10px rgba(54, 0, 39, 0.07);
+  border-radius: 30px;
+  height: 185px;
+  cursor: pointer;
+  color: #710252;
+  margin-bottom: 25px;
+  justify-content: center;
+  stroke: #9898a6;
+  fill: #9898a6;
+}
+
+.ArticlesContainer__articleListWidget {
+  display: grid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ddd;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ModuleItem__moduleListItem {
+  background: none;
+}
+
+.ArticlesContainer__articleListWidget {
+  background: none;
+  border: none;
+}
+
+.TitleContainer__headerIcon,
+.TitleContainer__body {
+  display: none;
+}
+
+.TitleContainer__header {
+  border: none;
+  font-size: 18px;
+  color: #ee6a5c !important;
+  font-weight: 600;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.ModuleItem__moduleListItem {
+  margin-right: 20px;
+}
+
+.TitleContainer__container .commonStyle__flexColumn {
+  justify-content: center;
+}
+
+.Header__menuWrapper {
+  position: relative;
+}
+
+.Header__searchSubCont {
+  position: absolute;
+  top: -62px;
+  z-index: 1;
+  width: 40%;
+  display: block;
+}
+
+#autoSearchContainer {
+  border: 1px solid #c4c4c4;
+}
+
+.Header__titleDescription {
+  padding-bottom: 0;
+}
+
+.Header__panelbtns {
+  display: none;
+}
+
+.Header__defaultContent .Header__banneralt {
+  min-height: auto;
+}
+
+.Header__defaultContent .Header__titleSearchBox {
+  padding: 0;
+}
+
+.Header__titleSearchWrapper,
+.Header__menuBox {
+  max-width: 67.125rem !important;
+  transition: max-width 200ms ease;
+}
+
+.Header__homeContent .Header__searchalt .Header__searchLink {
+  margin: 0;
+}
+
+.Layout__fullWidth {
+  max-width: 68rem;
+}
+
+.WidgetsContainer__widgetCont {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.LocalePopup__globeIcon {
+  display: none;
+}
+
+.LocalePopup__localeTarget {
+  font-size: 12px;
+  color: #6b6b78;
+  background-color: transparent;
+  border-radius: 1rem;
+  align-items: baseline;
+  padding: 5px 10px;
+  border: 1px solid #c4c4c4;
+}
+
+.Header__header,
+.Header__menu,
+.Header__menuWrapper,
+.Header__titleSearchWrapper,
+.Header__nav .Header__link,
+.Header__menuList,
+.Header__navbtn,
+.Header__menuBox,
+.Header__menuWrapper {
+  font-size: 13px;
+}
+
+.Header__welcomeTitle {
+  margin: 30px;
+}
+
+.ModuleItem__moduleItem,
+.ArticleListContainer__boxView,
+.KBSubCategoryContainer__boxView,
+.ArticleDetailLeftContainer__box {
+  box-shadow: none;
+  background: none;
+  border: none;
+}
+
+.ArticleListContainer__boxView .ModuleItem__moduleListItem,
+.ModuleItem__moduleHeader {
+  padding: 19px 27px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 6px 50px 10px rgba(54, 0, 39, 0.07);
+  border-radius: 20px;
+  cursor: pointer;
+  color: #710252;
+  margin-bottom: 10px;
+  justify-content: center;
+  stroke: #9898a6;
+  fill: #9898a6;
+}
+
+.ArticleDetailLeftContainer__description {
+  padding: 0;
+}
+
+.ArticleDetailLeftContainer__titles,
+.tagContent {
+  display: none;
+}
+
+.ArticleCmd__articleLike {
+  background: none;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.ArticleCmd__articleDetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.ArticleCmd__articleDetail > span:nth-child(1) {
+  grid-column: span 2;
+}
+
+.ArticleCmd__Like svg {
+  color: gray;
+}
+
+.ArticleCmd__articleDetail > span:nth-child(2),
+.ArticleCmd__articleDetail > span:nth-child(3) {
+  border: 1px solid #c4c4c4;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: gray;
+  min-width: 90px;
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.ArticleCmd__mgr15,
+.ArticleCmd__helptxt {
+  margin-right: 0;
+}
+
+.ArticleCmd__txtSuccess,
+.ArticleCmd__txtdanger {
+  color: gray;
+}
+
+.ArticleCmd__fnt600 {
+  display: none;
+}
+
+svg,
+.Icon__icon {
+  color: #ee6a5c !important;
+}
+
+.ArticleCmd__socialShareLt > span:nth-child(1) {
+  display: none;
+}
+
+.ArticleCmd__articleLike .ArticleCmd__posttime[data-id="article_modify_time"],
+.ArticleCmd__articleLike .ArticleCmd__posttime {
+  display: none;
+}
+
+.CustomWidgets__widgetIcon {
+  display: none;
+}
+
+.BreadCrumbs__breadCrumbsLink {
+  color: white;
+}
+
+.Signin__details,
+.ForgetPasswordContainer__details {
+  max-height: 450px;
+  border: 1px solid #e1ded7;
+  border-radius: 8px;
+}
+
+.Signin__part,
+.Signin__signPart,
+.ForgetPasswordContainer__part,
+.ForgetPasswordContainer__signPart {
+  min-height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.Signin__title,
+.ForgetPasswordContainer__title {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  color: #710252 !important;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 11px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .AppContainer__wrapper {
+    padding: 0;
+  }
+
+  .Signin__details,
+  .ForgetPasswordContainer__details {
+    max-height: 1463px;
+  }
+
+  .WidgetsContainer__widgetCont {
+    gap: 50px;
+  }
+
+  .LocalePopup__globeIcon {
+    display: block;
+  }
+
+  .hero-unit__image {
+    display: none;
+  }
+
+  #autoSearchContainer {
+    height: 50px;
+  }
+
+  .Header__homeNavbarFixed .Header__searchLink {
+    background-color: #ee6a5c;
+  }
+
+  .Header__menu {
+    background-color: black;
+  }
+
+  .Header__menu:after {
+    background-color: black;
+  }
+
+  .Header__menu:before {
+    background-color: black;
+  }
+
+  #autoSearchContainer,
+  input::placeholder {
+    font-size: 16px;
+  }
+
+  .Header__defaultContent .Header__banneralt {
+    min-height: 1.375rem;
+  }
+
+  .TitleContainer__listView {
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+
+  .ModuleCategoryContainer__containerListView {
+    background: transparent;
+    border: none;
+  }
+
+  .Header__menu {
+    background-color: black;
+  }
+
+  .Header__menu:after {
+    background-color: black;
+  }
+
+  .Header__menu:before {
+    background-color: black;
+  }
+
+  .Header__navOpen .Header__nav {
+    justify-content: start;
+    margin-top: 50px;
+  }
+
+  .Header__menuList {
+    color: white;
+    padding: 0 15px;
+    font-size: 12px;
+    display: table;
+  }
+
+  .Header__menuList.Header__navactive {
+    color: white;
+  }
+
+  .LoginDetail__LogoutDetail {
+    margin: 40px 0 40px 0;
+  }
+
+  #portal_tabsignin {
+    color: white;
+    padding: 15px 15px;
+  }
+
+  .Header__navOpen .Header__nav .Header__link {
+    border-bottom: none;
+    font-size: 1rem;
+  }
+
+  .Header__menuList {
+    font-size: 1rem;
+  }
+
+  .Header__responsivefreez {
+    background: #ee6a5c;
+  }
+
+  .ArticlesContainer__articleListWidget {
+    grid-template-columns: 1fr;
+  }
+}
