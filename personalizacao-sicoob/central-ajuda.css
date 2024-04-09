@@ -1,0 +1,355 @@
+.Header__menuWrapper {
+  background: white;
+}
+
+#navBarContainer {
+  background-color: white !important;
+  max-width: 80rem !important;
+}
+
+.Header__logo {
+  max-height: 4rem;
+  max-width: 8.5rem;
+  min-height: auto;
+  display: block;
+  margin-top: -10px;
+}
+
+.Header__menuList {
+  color: #1e1e1e;
+  padding: 0 15px;
+  font-size: 0.8rem;
+}
+
+#portal_tabsignin {
+  color: #1e1e1e;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 0 15px;
+  font-size: 12px;
+}
+
+#localePopup {
+  font-size: 0.8rem;
+}
+
+.LocalePopup__localeTarget > svg {
+  top: 0 !important;
+}
+
+.Header__titleDescription {
+  display: flex;
+  align-items: center;
+}
+
+.Header__welcomeTitle,
+.Header__welcomeDescription {
+  text-align: start !important;
+}
+
+.hero-unit__image {
+  max-width: 55%;
+  margin-left: 20px;
+}
+
+#autoSearchContainer {
+  height: 95px;
+  padding: 2px 10px 0 70px;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 50px 50px 0 0 !important;
+}
+
+#autoSearchContainer,
+input::placeholder {
+  font-size: 16px;
+}
+
+.Header__homeContent .Header__searchalt .Header__searchLink {
+  margin: 0;
+  width: 100%;
+}
+
+.Header__homeNavbarFixed .Header__searchSubCont {
+  padding-bottom: 0;
+}
+
+.Header__searchalt {
+  padding-bottom: 0;
+}
+
+.Header__searchLink {
+  box-shadow: none;
+}
+
+.SearchBox__searchpart {
+  background-color: transparent !important;
+}
+
+.Header__titleSearchBox {
+  padding-bottom: 0;
+}
+
+.Button__tagPrimary {
+  background: none;
+  color: #000;
+  font-size: 25px;
+  border: none;
+  box-shadow: none;
+  font-weight: bold;
+  text-align: start;
+}
+
+.TitleContainer__headerIcon {
+  display: none;
+}
+
+.TitleContainer__container {
+  border-radius: 50px;
+}
+
+.ArticlesContainer__articleListWidget {
+  background: none;
+  border: none;
+}
+
+.ModuleItem__moduleListItem,
+.ModuleItem__moduleItem {
+  margin-top: 12px;
+  border-radius: 50px;
+}
+
+.ModuleItem__moduleListItem:hover,
+.ModuleItem__moduleItem:hover {
+  border: 1px;
+  border: 1px solid #10414a;
+}
+
+.KBSubCategoryContainer__boxView {
+  border: none;
+}
+
+.ArticleListContainer__boxView {
+  border: none;
+  background: transparent;
+}
+
+.ArticleDetailLeftContainer__box,
+.TicketFormLeftContainer__part {
+  border-radius: 50px;
+  border: none;
+}
+
+.Article_title {
+  display: none;
+}
+
+#breadCrumbsContainer {
+  display: none;
+}
+
+.Header__containerLi {
+  display: table;
+  background: transparent;
+}
+
+.Signin__linkTitle {
+  border-radius: 5px;
+  background: #10414a;
+  font-size: 12px;
+  padding: 8px;
+  margin-left: 4px;
+}
+
+.Signin__linkTitle a {
+  color: #fff !important;
+}
+
+.Header__defaultContent .Header__banneralt {
+  min-height: 5.375rem;
+}
+
+.Signin__title {
+  font-size: 25px;
+}
+
+.Signin__subTitle {
+  display: none;
+}
+
+.Signin__details {
+  max-height: 25rem;
+  border-radius: 50px;
+  display: none;
+}
+
+.Signin__descriSingn {
+  margin-top: 10px;
+}
+
+.Header__homeNavbarFixed .Header__searchSubCont {
+  background: #10414a;
+}
+
+.Header__dropicon,
+.tagContent,
+.ArticleCmd__txtSuccess,
+.ArticleCmd__txtdanger,
+.ArticleCmd__fnt600 {
+  display: none;
+}
+
+.ArticleCmd__articleLike {
+  border-top: none;
+}
+
+.ArticlesContainer__title {
+  margin: 0 0 1.9375rem;
+}
+
+.TicketFormLeftContainer__part {
+  border: none;
+  padding: 0;
+}
+
+.search__wrapper .search__searchTitleHeader {
+  font-weight: normal;
+}
+
+.Button__warning {
+  color: #00353e;
+  border: 0.0625rem solid #efefef;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.Button__warning:hover {
+  background: #fafafa;
+}
+
+.search__searchPanel {
+  border: none;
+  box-shadow: none;
+}
+
+.search__resultFilter {
+  width: 100%;
+}
+
+.AppContainer__keyBoardfocus,
+[data-focus-added] {
+  outline: solid 3px #ea9c2c !important;
+}
+
+.Header__containerLi {
+  border: 1px solid transparent;
+  letter-spacing: normal;
+  padding: 0.3rem 0.5rem;
+  font-size: 13px;
+  border-radius: 2rem;
+  background: #636363;
+  transition: all 0.15s ease;
+  color: #fff;
+  max-width: fit-content;
+  padding: 0.6rem;
+}
+
+.Header__containerLi:hover {
+  color: #fff !important;
+  background: #e46317;
+}
+
+.Header__containerLi a:hover {
+  color: #fff !important;
+}
+
+.AppContainer__backtop {
+  box-shadow: none;
+  background: #e46317 !important;
+}
+
+.AppContainer__backtopicon svg {
+  color: #fff !important;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .hero-unit__image {
+    display: none;
+  }
+
+  #autoSearchContainer {
+    height: 50px;
+  }
+
+  #autoSearchContainer,
+  input::placeholder {
+    font-size: 16px;
+  }
+
+  .Header__defaultContent .Header__banneralt {
+    min-height: 1.375rem;
+  }
+
+  .TitleContainer__listView {
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+
+  .ModuleCategoryContainer__containerListView {
+    background: transparent;
+    border: none;
+  }
+
+  .Header__menu {
+    background-color: black;
+  }
+
+  .Header__menu:after {
+    background-color: black;
+  }
+
+  .Header__menu:before {
+    background-color: black;
+  }
+
+  .Header__navOpen .Header__nav {
+    justify-content: start;
+  }
+
+  .Header__menuList {
+    color: white;
+    padding: 0 15px;
+    font-size: 12px;
+    display: table;
+  }
+
+  .Header__menuList.Header__navactive {
+    color: white;
+  }
+
+  .LoginDetail__LogoutDetail {
+    margin: 40px 0 40px 0;
+  }
+
+  #portal_tabsignin {
+    color: white;
+    padding: 15px 15px;
+  }
+
+  .Header__homeNavbarFixed .Header__searchLink {
+    padding-bottom: 0 !important;
+  }
+
+  .Header__navOpen .Header__nav .Header__link {
+    border-bottom: none;
+    font-size: 1rem;
+  }
+
+  .Header__menuList {
+    font-size: 1rem;
+  }
+}

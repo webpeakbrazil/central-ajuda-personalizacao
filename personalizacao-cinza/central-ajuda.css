@@ -1,0 +1,365 @@
+#container {
+  background-color: white;
+}
+
+.Header__menuWrapper {
+  background-color: rgba(0, 53, 62, 0.42);
+}
+
+.Header__searchLink {
+  max-width: 80% !important;
+}
+
+.Header__header,
+.Header__menu,
+.Header__menuWrapper,
+.Header__titleSearchWrapper,
+.Header__nav .Header__link,
+.Header__menuList,
+.Header__navbtn,
+.Header__menuBox,
+.Header__menuWrapper {
+  font-size: 13px;
+}
+
+#navBarContainer {
+  max-width: 80rem !important;
+}
+
+.Header__logotxt,
+.ModuleCategoryContainer__hometabs {
+  display: none;
+}
+
+.SearchBox__searchpart input {
+  padding: 1.05rem 0.75rem;
+  border-radius: 0.313rem 0 0 0.313rem !important;
+  font-size: 0.9rem;
+}
+
+.TitleContainer__container {
+  background: none;
+  box-shadow: none;
+  text-align: center;
+  border: none;
+}
+
+.TitleContainer__header {
+  flex-direction: column;
+  gap: 5px;
+  border: none;
+}
+
+.TitleContainer__title > a,
+.TitleContainer__list_title > a {
+  text-transform: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin: 1.25rem 0;
+}
+
+.ArticlesContainer__articleListWidget,
+.ModuleItem__moduleListItem {
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.AppContainer__backtop {
+  box-shadow: none;
+  background: #04ad9d !important;
+}
+
+.AppContainer__backtopicon svg {
+  color: #fff !important;
+}
+
+.Header__homeNavbarFixed .Header__searchSubCont {
+  background: #4b6363 !important;
+}
+
+.ModuleCategoryContainer__gridView {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.TitleContainer__container {
+  width: 100%;
+}
+
+#bannerContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  gap: 50px;
+}
+
+.BreadCrumbs__breadCrumbsLink {
+  color: #fff;
+}
+
+.Header__searchSubCont {
+  width: 100%;
+}
+
+#searchContainer {
+  width: 100%;
+}
+
+.Signin__details,
+.ForgetPasswordContainer__details {
+  border: none;
+}
+
+.Signin__linkTitle a,
+.ForgetPasswordContainer__linkTitle a {
+  color: #04ad9d !important;
+}
+
+.kbCategory__gridView .TitleContainer__headerIcon,
+.TitleContainer__content {
+  display: none;
+}
+
+.kbCategory__gridView .commonStyle__flexColumn {
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.kbCategory__gridView .TitleContainer__container {
+  margin: 0;
+  padding: 0;
+  min-height: auto;
+}
+
+.TitleContainer__gridView .TitleContainer__body {
+  flex: none;
+}
+
+.kbCategory__gridView .TitleContainer__header {
+  padding: 0;
+  width: fit-content;
+  text-align: start;
+}
+
+.kbCategory__gridView {
+  gap: 10px;
+}
+
+.kbCategory__gridView .TitleContainer__container {
+  border-bottom: 1px solid #f2f2f2;
+  border-radius: 0;
+  padding: 0.9375rem 0;
+}
+
+.kbCategory__gridView .TitleContainer__title a {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.kbCategory__gridView .TitleContainer__description {
+  margin: 0;
+  padding: 0;
+  min-height: auto;
+}
+
+.kbCategory__gridView .TitleContainer__title > a {
+  margin: 0;
+  padding: 0;
+}
+
+.kbCategory__gridView .TitleContainer__container + .TitleContainer__container {
+  margin: 0 !important;
+}
+
+.kbCategory__gridView
+  .TitleContainer__gridView
+  .TitleContainer__body
+  .TitleContainer__description {
+  margin: 0;
+  padding: 0;
+}
+
+.KBSubCategoryContainer__boxView {
+  border: none;
+}
+
+.KBSubCategoryContainer__boxView .ModuleItem__kbSubcategoryImg {
+  display: none;
+}
+
+.KBSubCategoryContainer__boxView .ModuleItem__kbtitledec {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.KBSubCategoryContainer__boxView .List__postdet {
+  display: none;
+}
+
+.KBSubCategoryContainer__boxView .ModuleItem__moduleTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.KBSubCategoryContainer__boxView .ModuleItem__moduleDescription {
+  margin: 0;
+}
+
+.commonStyle__verticalMiddle {
+  vertical-align: 0;
+}
+
+.ArticleListContainer__boxView,
+.ArticleDetailLeftContainer__box,
+.ArticleDetailLeftContainer__cmdBox {
+  box-shadow: none;
+  border: none;
+}
+
+.ArticleListContainer__boxView .ModuleItem__moduleListItem {
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+}
+
+.ArticleListContainer__boxView .ModuleItem__modulein {
+  padding: 0.9375rem 0;
+}
+
+.Header__searchalt {
+  gap: 10px;
+}
+
+.Header__containerLi {
+  border: 1px solid transparent;
+  letter-spacing: normal;
+  padding: 0.3rem 0.5rem;
+  font-size: 13px;
+  border-radius: 2rem;
+  background: #636363;
+  transition: all 0.15s ease;
+  color: #fff;
+  max-width: fit-content;
+  padding: 0.6rem;
+}
+
+.Header__containerLi:hover {
+  color: #fff !important;
+  background: #04ad9d;
+}
+
+.Header__containerLi a:hover {
+  color: #fff !important;
+}
+
+.Header__dropicon,
+.tagContent,
+.ArticleCmd__txtSuccess,
+.ArticleCmd__txtdanger,
+.ArticleCmd__fnt600 {
+  display: none;
+}
+
+.ArticleCmd__articleLike {
+  background: #f8f8f8;
+  padding: 5px 10px;
+  border-top: none;
+}
+
+.ArticlesContainer__title {
+  margin: 0 0 1.9375rem;
+}
+
+.TicketFormLeftContainer__part {
+  border: none;
+  padding: 0;
+}
+
+.Header__defaultContent .Header__searchalt {
+  justify-content: end;
+}
+
+.search__wrapper .search__searchTitleHeader {
+  font-weight: normal;
+}
+
+.Button__warning {
+  color: #00353e;
+  border: 0.0625rem solid #efefef;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.Button__warning:hover {
+  background: #fafafa;
+}
+
+.search__searchPanel {
+  border: none;
+  box-shadow: none;
+}
+
+.search__resultFilter {
+  width: 100%;
+}
+
+.AppContainer__keyBoardfocus,
+[data-focus-added] {
+  outline: solid 3px #04ad9d !important;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .ModuleCategoryContainer__gridView {
+    grid-template-columns: auto;
+  }
+
+  .TitleContainer__Listcontainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .TitleContainer__headerIcon {
+    margin: 0 auto;
+  }
+
+  .ModuleCategoryContainer__containerListView {
+    margin-top: 100px;
+  }
+
+  #bannerContainer {
+    flex-direction: column-reverse;
+    gap: 0;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+
+  .Header__defaultContent .Header__searchalt {
+    justify-content: center;
+  }
+
+  .Header__searchLink {
+    max-width: auto;
+  }
+
+  .Header__homeNavbarFixed .Header__searchLink {
+    background: #4b6363;
+  }
+
+  .Header__navOpen .Header__nav {
+    justify-content: start;
+    background-color: rgba(0, 53, 62, 0.42);
+  }
+
+  .Header__responsivefreez {
+    background-color: #4b6363;
+  }
+}

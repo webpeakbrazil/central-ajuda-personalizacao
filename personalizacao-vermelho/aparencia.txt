@@ -1,5 +1,5 @@
 Fontes
-Fontes-padrãp
+Fontes-padrão
 Sans-Serif
 
 Cores

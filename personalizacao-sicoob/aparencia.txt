@@ -7,15 +7,15 @@ Corpo
 - Plano De Fundo: #ffffff
 
 Cabeçalho
-- Imagem Do Plano De Fundo: -
-- Cor Da Tela De Fundo: #ee6a5c
+- Imagem Do Plano De Fundo: (background.png)
+- Cor Da Tela De Fundo: -
 - Texto Do Cabeçalho: #ffffff
 
 Navegação
 - Normal: #8a8795
 - Passar O Mouse Sobre: #000
 - Selecionado: #000
-- Borda: #000
+- Borda: #04ad9d
 
 Navegação estrutural
 - Texto: #8a8795
@@ -23,17 +23,17 @@ Navegação estrutural
 
 Vincular
 - Texto Normal: #000
-- Passe O Mouse Sobre O Texto: #ee6a5c
-- Texto Selecionado: #ee6a5c
+- Passe O Mouse Sobre O Texto: #10414a
+- Texto Selecionado: #10414a
 
 Botões
-- Principal: #ee6a5c
+- Principal: #10414a
 - Texto Primário: #ffffff
 - Secundário: #ffffff
-- Texto Secundário: #ee6a5c
+- Texto Secundário: #10414a
 
 Rodapé
 - Plano De Fundo: #ffffff
 - Texto: #afafaf
 - Vincular: #afafaf
-- Passar O Mouse Sobre O Link: #ee6a5c
+- Passar O Mouse Sobre O Link: #10414a
