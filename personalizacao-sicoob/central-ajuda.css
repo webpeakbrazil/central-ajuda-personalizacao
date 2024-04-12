@@ -183,7 +183,6 @@ input::placeholder {
 .Signin__details {
   max-height: 25rem;
   border-radius: 50px;
-  display: none;
 }
 
 .Signin__descriSingn {

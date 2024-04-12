@@ -1,10 +1,10 @@
-.Header__menuWrapper{
+.Header__menuWrapper {
   background: white;
 }
 
-#navBarContainer{
-  background-color: white!important;
-  max-width: 80rem!important;
+#navBarContainer {
+  background-color: white !important;
+  max-width: 80rem !important;
 }
 
 .Header__logo {
@@ -15,36 +15,45 @@
   margin-top: -10px;
 }
 
-.Header__menuList{
-  color: #1E1E1E;
+.Header__menuList {
+  color: #1e1e1e;
   padding: 0 15px;
   font-size: 0.8rem;
 }
 
-#portal_tabsignin{
-  color: #1E1E1E;
-  border: 1px solid #CCCCCC;
+#portal_tabsignin {
+  color: #1e1e1e;
+  border: 1px solid #cccccc;
   border-radius: 5px;
   padding: 0 15px;
   font-size: 12px;
+  height: min-content!important;
 }
 
-#localePopup{
+#portal_tabsignup {
+  display: none;
+}
+
+.Signup__details {
+  border-radius: 5px;
+}
+
+#localePopup {
   font-size: 0.8rem;
 }
 
 .LocalePopup__localeTarget > svg {
-  top: 0!important;
+  top: 0 !important;
 }
 
-.Header__titleDescription{
+.Header__titleDescription {
   display: flex;
   align-items: center;
-
 }
 
-.Header__welcomeTitle, .Header__welcomeDescription{
-  text-align: start!important;
+.Header__welcomeTitle,
+.Header__welcomeDescription {
+  text-align: start !important;
 }
 
 .hero-unit__image {
@@ -52,7 +61,7 @@
   margin-left: 20px;
 }
 
-#autoSearchContainer{
+#autoSearchContainer {
   height: 95px;
   padding: 2px 10px 0 70px;
   font-size: 16px;
@@ -60,10 +69,11 @@
   width: 100%;
   box-sizing: border-box;
   background: #fff;
-  border-radius: 50px 50px 0 0!important;
+  border-radius: 50px 50px 0 0 !important;
 }
 
-#autoSearchContainer,input::placeholder{
+#autoSearchContainer,
+input::placeholder {
   font-size: 16px;
 }
 
@@ -80,12 +90,12 @@
   padding-bottom: 0;
 }
 
-.Header__searchLink{
+.Header__searchLink {
   box-shadow: none;
 }
 
-.SearchBox__searchpart{
-  background-color: transparent!important;
+.SearchBox__searchpart {
+  background-color: transparent !important;
 }
 
 .Header__titleSearchBox {
@@ -102,96 +112,103 @@
   text-align: start;
 }
 
-.TitleContainer__headerIcon{
+.TitleContainer__headerIcon {
   display: none;
 }
 
-.TitleContainer__container{
+.TitleContainer__container {
   border-radius: 50px;
 }
 
-.ArticlesContainer__articleListWidget{
+.ArticlesContainer__articleListWidget {
   background: none;
   border: none;
 }
 
-.ModuleItem__moduleListItem, .ModuleItem__moduleItem{
+.ModuleItem__moduleListItem,
+.ModuleItem__moduleItem {
   margin-top: 12px;
   border-radius: 50px;
 }
 
-.ModuleItem__moduleListItem:hover, .ModuleItem__moduleItem:hover{
+.ModuleItem__moduleListItem:hover,
+.ModuleItem__moduleItem:hover {
   border: 1px;
-  border: 1px solid #5B1AB2;
+  border: 1px solid #5b1ab2;
 }
 
-.KBSubCategoryContainer__boxView{
+.KBSubCategoryContainer__boxView {
   border: none;
 }
 
-.ArticleListContainer__boxView{
+.ArticleListContainer__boxView {
   border: none;
   background: transparent;
 }
 
-.ArticleDetailLeftContainer__box, .TicketFormLeftContainer__part{
+.ArticleDetailLeftContainer__box,
+.TicketFormLeftContainer__part {
   border-radius: 50px;
   border: none;
 }
 
-.Article_title{
+.Article_title {
   display: none;
 }
 
-#breadCrumbsContainer{
+#breadCrumbsContainer {
   display: none;
 }
 
-.Header__containerLi{
+.Header__containerLi {
   display: table;
   background: transparent;
 }
 
-#new_ticket_button{
+#new_ticket_button {
   border-radius: 5px;
-  background: #7B61FF;
+  background: #7b61ff;
   font-size: 14px;
   padding: 15px;
   color: #fff;
   display: table;
 }
 
-.Signin__linkTitle{
+.Signin__linkTitle,
+.Signup__linkTitle {
   border-radius: 5px;
-  background: #7B61FF;
+  background: #7b61ff;
   font-size: 12px;
   padding: 8px;
   margin-left: 4px;
 }
 
-.Signin__linkTitle a{
-  color: #fff!important;
+.Signin__linkTitle a,
+.Signup__linkTitle a {
+  color: #fff !important;
 }
 
 .Header__defaultContent .Header__banneralt {
   min-height: 5.375rem;
 }
 
-.Signin__title{
+.Signin__title,
+.Signup__title {
   font-size: 25px;
 }
 
-.Signin__subTitle{
+.Signin__subTitle,
+.Signup__subTitle {
   display: none;
 }
 
-.Signin__details{
+.Signin__details {
   max-height: 25rem;
   border-radius: 50px;
-  display: none;
 }
 
-.Signin__descriSingn{
+.Signin__descriSingn,
+.Signup__descriSingn {
   margin-top: 10px;
 }
 
@@ -200,11 +217,12 @@
     display: none;
   }
 
-  #autoSearchContainer{
+  #autoSearchContainer {
     height: 50px;
   }
 
-  #autoSearchContainer,input::placeholder{
+  #autoSearchContainer,
+  input::placeholder {
     font-size: 16px;
   }
 
@@ -212,29 +230,29 @@
     min-height: 1.375rem;
   }
 
-  .TitleContainer__listView{
+  .TitleContainer__listView {
     border-radius: 50px;
     margin-top: 10px;
   }
 
-  .ModuleCategoryContainer__containerListView{
+  .ModuleCategoryContainer__containerListView {
     background: transparent;
     border: none;
   }
 
-  .Header__menu{
+  .Header__menu {
     background-color: black;
   }
 
-  .Header__menu:after{
+  .Header__menu:after {
     background-color: black;
   }
 
-  .Header__menu:before{
+  .Header__menu:before {
     background-color: black;
   }
 
-  .Header__navOpen .Header__nav{
+  .Header__navOpen .Header__nav {
     justify-content: start;
   }
 
@@ -245,29 +263,24 @@
     display: table;
   }
 
-  .Header__menuList.Header__navactive{
+  .Header__menuList.Header__navactive {
     color: white;
   }
 
-  .LoginDetail__LogoutDetail{
+  .LoginDetail__LogoutDetail {
     margin: 40px 0 40px 0;
   }
 
-  #portal_tabsignin {
-    color: white;
-    padding: 15px 15px;
+  .Header__homeNavbarFixed .Header__searchLink {
+    padding-bottom: 0 !important;
   }
 
-  .Header__homeNavbarFixed .Header__searchLink {
-    padding-bottom: 0!important;
-  }
-  
   .Header__navOpen .Header__nav .Header__link {
     border-bottom: none;
     font-size: 1rem;
   }
-  
-  .Header__menuList{
+
+  .Header__menuList {
     font-size: 1rem;
   }
 }
