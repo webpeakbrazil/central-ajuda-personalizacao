@@ -1,0 +1,39 @@
+Fontes
+Fontes-padrão
+Sans-Serif
+
+Cores
+Corpo
+- Plano De Fundo: #000
+
+Cabeçalho
+- Imagem Do Plano De Fundo: (background.png)
+- Cor Da Tela De Fundo: -
+- Texto Do Cabeçalho: #FFF
+
+Navegação
+- Normal: #FFF
+- Passar O Mouse Sobre: #FFF
+- Selecionado: #FFF
+- Borda: #FFF
+
+Navegação estrutural
+- Texto: #FFF
+- Passe O Mouse Sobre O Texto: #FFF
+
+Vincular
+- Texto Normal: #FFF
+- Passe O Mouse Sobre O Texto: #FFF
+- Texto Selecionado: #FFF
+
+Botões
+- Principal: #5b1ab2
+- Texto Primário: #5b1ab2
+- Secundário: #FFF
+- Texto Secundário: ##FFF
+
+Rodapé
+- Plano De Fundo: #000
+- Texto: #FFF
+- Vincular: #FFF
+- Passar O Mouse Sobre O Link: ##FFF

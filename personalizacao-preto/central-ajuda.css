@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+#container {
+  font-family: "Jura", sans-serif;
+}
+
+#navBarContainer {
+  max-width: 80rem !important;
+}
+
+.ArticleDetailLeftContainer__titles,
+h1 {
+  color: #fff;
+}
+
+.Header__logo {
+  max-height: 4rem;
+  max-width: 8.5rem;
+  min-height: auto;
+  display: block;
+  margin-top: -10px;
+}
+
+.Header__menuList {
+  padding: 0 15px;
+}
+
+.Header__logotxt {
+  display: none;
+}
+
+.Header__navbtn {
+  background-color: #212225;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+
+.Header__menuList.Header__navactive,
+.LoginDetail__active {
+  border-bottom: none;
+}
+
+.Header__menuWrapper {
+  border-bottom: 1px solid #212225;
+}
+
+.Header__titleSearchWrapper {
+  max-width: 60% !important;
+  margin-right: 0;
+  min-height: 400px;
+}
+
+.Header__titleSearchBox {
+  padding-top: 0;
+}
+
+.Header__headerBg {
+  background-position: 100% 30%;
+}
+
+.Header__welcomeTitle {
+  font-size: 70px;
+  line-height: 5rem;
+  text-align: start;
+  margin: 0.625rem 0 1.5rem 0;
+}
+
+.Header__welcomeDescription {
+  text-align: start;
+}
+
+.Header__searchLink {
+  margin: 0;
+}
+
+.SearchBox__searchpart {
+  border-radius: 50px;
+}
+
+.SearchBox__searchpart input {
+  border-radius: 50px;
+}
+
+.Header__searchLink {
+  width: auto;
+}
+
+.Header__titleSearchBox {
+  max-width: 80%;
+}
+
+.Header__titleDescription {
+  padding-bottom: 1rem;
+}
+
+.Header__titleSearchBox {
+  padding-top: 0.9rem;
+}
+
+.Header__titleSearchBox {
+  padding-bottom: 0;
+  margin-left: 30px;
+}
+
+.Button__tagPrimary,
+.Button__warning {
+  border-right: 6px solid #5b1ab2;
+  border-left: 6px solid #5b1ab2;
+  border-top: none;
+  border-bottom: none;
+  background-color: #212225;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  box-shadow: none;
+  width: fit-content;
+  color: #fff;
+}
+
+.ModuleCategoryContainer__hometabs {
+  padding: 0;
+}
+
+.TitleContainer__container {
+  grid-column-gap: 64px;
+  background-color: #18191c;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  text-decoration: none;
+  display: flex;
+  box-shadow: none;
+}
+
+.TitleContainer__header {
+  border-bottom: none;
+}
+
+.TitleContainer__description,
+.TitleContainer__list_description,
+.TitleContainer__progressText {
+  color: #fff;
+}
+
+.TitleContainer__headerIcon {
+  display: none;
+}
+
+.TitleContainer__title > a {
+  font-size: 30px;
+}
+
+.TitleContainer__title > a:hover {
+  color: #fff;
+}
+
+.ArticlesContainer__articleListWidget {
+  background: none;
+  border: none;
+}
+
+.ModuleItem__moduleListItem {
+  background: none;
+  border: 1px solid #5b1ab2;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.ModuleItem__moduleListItem:last-child {
+  border-bottom: 1px solid #5b1ab2;
+}
+
+.Header__homeNavbarFixed .Header__searchSubCont {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.Header__searchLink {
+  width: 100%;
+}
+
+.Header__containerLi {
+  max-width: 100%;
+}
+
+.AppContainer__homeWidget {
+  padding: 4rem 0 0 0;
+}
+
+.Header__searchalt {
+  gap: 5px;
+}
+
+ul .Header__containerLi {
+  border-radius: 50px;
+  background-color: #5b1ab2;
+  color: white;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.Header__dropicon {
+  display: none;
+}
+.Header__containerLink {
+  margin-top: 8px;
+}
+
+.Header__containerLink:hover {
+  color: #fff;
+}
+
+.AppContainer__wrapper {
+  padding-top: 1rem;
+}
+
+.ModuleItem__moduleItem {
+  background-color: #212225;
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.KBSubCategoryContainer__boxView {
+  border: none;
+  box-shadow: none;
+}
+
+svg,
+.Icon__icon {
+  fill: #5b1ab2 !important;
+  color: #5b1ab2 !important;
+}
+
+.ModuleItem__moduleDescription,
+.List__postdet li {
+  color: #fff;
+}
+
+.ArticleListRightContainer__wrapper {
+  margin: 0.5rem 0;
+}
+
+.CustomWidgets__widgetTitle {
+  color: #fff;
+}
+
+.ArticleListContainer__boxView {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.ArticleDetailLeftContainer__box,
+.ArticleDetailLeftContainer__cmdBox {
+  background: #212225;
+  border-radius: 16px;
+  border: none;
+  box-shadow: none;
+}
+
+.description {
+  color: #fff;
+}
+
+.ArticleCmd__articleLike {
+  border: none;
+  background: none;
+}
+
+.ArticleCmd__articleDetail span:nth-of-type(1) {
+  color: white;
+}
+
+.ArticleCmd__articleDetail span:nth-of-type(2) {
+  border: 1px solid #5b1ab2;
+  color: #efefef;
+  text-align: left;
+  background-color: none;
+  border-radius: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+}
+
+.ArticleCmd__articleDetail span:nth-of-type(3) {
+  border: 1px solid #efefef;
+  color: #efefef;
+  text-align: left;
+  background-color: none;
+  border-radius: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+}
+
+.ArticleCmd__fnt600,
+.ArticleListContainer__title,
+.ArticleDetailLeftContainer__kbTitle {
+  color: #efefef !important;
+}
+
+.Signin__title,
+.Signin__subTitle,
+.Signin__titleSign,
+.Signup__title,
+.Signup__subTitle,
+.Signup__titleSign {
+  color: white;
+}
+
+.Signin__titleSign span,
+.Signup__titleSign span {
+  color: #efefef;
+}
+
+.ArticleListContainer__wrapper,
+.ArticleListContainer__rightWrapper {
+  margin: 0;
+}
+
+.Signin__details {
+  max-height: 400px;
+}
+
+.Signin__details,
+.Signup__details {
+  padding: 0;
+  background: #212225;
+  border: none;
+  border-radius: 16px;
+}
+
+.Signin__part,
+.Signup__part {
+  min-height: auto;
+}
+
+.Button__secondary {
+  background: #efefef;
+  color: #000;
+}
+
+.Form__labelText {
+  color: #fff;
+}
+
+.ModuleCategoryContainer__containerListView {
+  background: none;
+  border: none;
+}
+
+.TitleContainer__listView {
+  border: none;
+  background: #212225;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.TOCContainer__tocHeading .search__searchTitleHeader {
+  color: #fff;
+}
+
+.search__searchPanel {
+  background: #212225;
+  border-radius: 16px;
+  border: none;
+  box-shadow: none;
+}
+
+.ErrorPageNew__heading {
+  color: #fff;
+}
+
+.search__wrapper {
+  padding: 0;
+}
+
+@media only screen and (max-device-width: 768px) {
+  body .Header__titleSearchWrapper {
+    max-width: 80rem !important;
+  }
+
+  .Header__homeNavbarFixed .Header__searchLink {
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  .Header__responsivefreez {
+    background-color: rgba(144, 144, 144, 0.95);
+  }
+
+  .Header__titleSearchWrapper {
+    min-height: auto;
+  }
+
+  .Header__titleSearchBox {
+    display: block;
+  }
+}

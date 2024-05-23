@@ -1,0 +1,58 @@
+<div class="Header__headerBg">
+    <div class="Header__bgColor"></div>
+</div>
+<div class="Header__menuWrapper">
+    <div class="Header__menuBox" id="navBarContainer">
+        <div class="Header__logoPart">
+            <a class="Header__logoimg" href="${PortalLinkBackUrl}"><img src="${PortalLogo}" class="Header__logo" }
+                    alt=""></a>
+            <span class="Header__logotxt">${CompanyName} </span>
+        </div>
+        <div class="Header__navbtn">
+            <div class="Header__menuClick" id="menuBarContainer">
+                <span class="Header__menu"></span>
+            </div>
+            <div class="Header__responsivefreez"></div>
+            <ul class="Header__nav">
+                <li id="portal_tabHome" class="Header__menuList">${Home}</li>
+                <li id="portal_tabCases" class="Header__menuList">${MyRequests}</li>
+                <li id="portal_tabSolutions" class="Header__menuList">${KnowledgeBase}</li>
+                <li id="portal_tabCommunity" class="Header__menuList">${Community}</li>
+                ${SignInSignOut}
+                ${UserPreference}
+            </ul>
+            ${Languages}
+        </div>
+    </div>
+</div>
+<div class="Header__titleSearchWrapper" id="titleSearch">
+    <div class="Header__titleSearchBox">
+        <div class="Header__titleDescription">
+            <h1 class="Header__welcomeTitle">${WelcomeText}</h1>
+            <div class="Header__welcomeDescription">${WelcomeDescription}</div>
+        </div>
+        <div class="Header__banneralt" id="bannerContainer">
+            <div class="Header__searchSubCont">
+                <div class="Header__searchalt" id="searchBtnContainer">
+                    <div class="Header__searchLink" id="searchContainer">
+                        ${BreadCrumbs}
+                        <div class="Header__searchBox">${Search}</div>
+                    </div>
+                    <div class="Header__panelbtns">
+                        <div class="Header__cdstretchynav" id="plusBtn">
+                            <div class="Header__overlayresponav"></div>
+                            <span class="Header__cdnavtrigger"></span>
+                            <div class="Header__container">
+                                <ul class="Header__containerUl">
+                                    ${AddTicket} ${AddTopic}
+                                </ul>
+                                <span class="Header__stretchynavbg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ${BreadCrumbs}
+        </div>
+    </div>
+</div>
